@@ -52,7 +52,7 @@ export default function Privacy() {
             <span className="text-purple-400 font-mono text-base">02.</span> Purposes of Data Processing
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            We process collected information for the following legitimate purposes:
+            We process collected information for the following purposes:
           </p>
           <ul className="list-disc list-inside space-y-1.5 text-white/70 text-sm md:text-base pl-2">
             <li>Payment processing, verification, and transaction status confirmation.</li>

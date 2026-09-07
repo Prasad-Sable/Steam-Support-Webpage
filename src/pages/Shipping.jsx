@@ -44,7 +44,7 @@ export default function Shipping() {
             <span className="text-cyan-400 font-mono text-base">02.</span> Digital Confirmation
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Upon successful payment confirmation by third-party payment providers (such as Razorpay), SuperDrop transactions are confirmed digitally on the platform in real time.
+            Once a SuperDrop is successfully confirmed by the relevant payment provider, the transaction may be reflected digitally on the Platform.
           </p>
         </section>
 

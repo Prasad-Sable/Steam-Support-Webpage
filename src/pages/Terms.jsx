@@ -65,7 +65,7 @@ export default function Terms() {
             <span className="text-purple-400 font-mono text-base">04.</span> Payment Processing & Credentials
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            All SuperDrop transactions are processed securely through licensed third-party payment providers such as <strong>Razorpay</strong> and authorized banking partners.
+            All SuperDrop transactions are processed through authorized third-party payment providers such as <strong>Razorpay</strong> and authorized banking partners.
           </p>
           <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
             <li><strong>No Credential Storage:</strong> Stream Support does not intentionally collect or store complete card numbers, CVV, UPI PINs, banking passwords, or similar sensitive payment authentication credentials. All sensitive payment details are handled directly by the payment provider.</li>
