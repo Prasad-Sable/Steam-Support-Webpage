@@ -77,7 +77,7 @@ export default function LegalLayout({ title, documentTitle, badge, lastUpdated, 
           {lastUpdated && (
             <div className="mt-4 text-xs font-mono text-white/40 flex items-center gap-2 justify-center md:justify-start">
               <span>📅</span>
-              <span>Last updated: {lastUpdated}</span>
+              <span>Effective Date: {lastUpdated}</span>
             </div>
           )}
         </div>
@@ -99,7 +99,7 @@ export default function LegalLayout({ title, documentTitle, badge, lastUpdated, 
               <span className="font-semibold text-white tracking-wide">STREAM SUPPORT</span>
             </div>
             <p className="text-white/60 text-sm mt-2 max-w-md">
-              Single-streamer support platform for voluntary SuperDrops. Built for speed, safety, and creator transparency.
+              Digital platform for voluntary monetary support for participating content creators and streamers.
             </p>
           </div>
 
@@ -113,11 +113,17 @@ export default function LegalLayout({ title, documentTitle, badge, lastUpdated, 
             <Link to="/refund" className="hover:text-white transition hover:underline">
               Refund & Cancellation
             </Link>
-            <Link to="/disclaimer" className="hover:text-white transition hover:underline">
-              Disclaimer
+            <Link to="/shipping" className="hover:text-white transition hover:underline">
+              Shipping Policy
+            </Link>
+            <Link to="/pricing" className="hover:text-white transition hover:underline">
+              Pricing & SuperDrops
             </Link>
             <Link to="/contact" className="hover:text-white transition hover:underline">
-              Contact / Support
+              Contact Us
+            </Link>
+            <Link to="/disclaimer" className="hover:text-white transition hover:underline">
+              Disclaimer
             </Link>
           </div>
         </div>

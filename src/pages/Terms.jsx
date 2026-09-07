@@ -7,16 +7,16 @@ export default function Terms() {
       title="Terms & Conditions"
       documentTitle="Stream Support | Terms & Conditions"
       badge="Legal Agreement"
-      lastUpdated="September 2026"
-      intro="Please read these Terms & Conditions carefully before using Stream Support or sending a SuperDrop. By accessing the platform, you agree to be bound by these terms."
+      lastUpdated="7 September 2026"
+      intro="Please read these Terms & Conditions carefully before using Stream Support or initiating a SuperDrop. By accessing the platform, you agree to be bound by these terms."
     >
       <div className="rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8 space-y-8">
         
-        {/* Placeholder Alert Banner */}
+        {/* Scope Banner */}
         <div className="rounded-2xl border border-purple-500/30 bg-purple-500/10 p-4 text-xs md:text-sm text-purple-200 flex items-start gap-3">
           <span className="text-lg">ℹ️</span>
           <div>
-            <strong className="font-semibold text-white">Platform Scope & Notice:</strong> Stream Support operates at <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[WEBSITE URL]</code> exclusively for financial support to <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[STREAMER NAME]</code>, managed by <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[LEGAL/OWNER NAME]</code>.
+            <strong className="font-semibold text-white">Platform Scope & Identification:</strong> Stream Support operates at <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[WEBSITE URL]</code> and is operated by <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[LEGAL/OWNER NAME]</code>.
           </div>
         </div>
 
@@ -26,123 +26,149 @@ export default function Terms() {
             <span className="text-purple-400 font-mono text-base">01.</span> Acceptance of Terms
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            By accessing or using <code className="text-cyan-300">[WEBSITE URL]</code> ("Stream Support"), sending a SuperDrop, or interacting with any part of this website, you confirm that you have read, understood, and agreed to these Terms & Conditions ("Terms"). If you do not agree to these Terms, you must not use or initiate transactions on this website.
+            By accessing or using <code className="text-cyan-300">[WEBSITE URL]</code> ("Stream Support"), initiating a SuperDrop, or interacting with any service offered on this website, you confirm that you have read, understood, and agreed to be bound by these Terms & Conditions ("Terms"). If you do not agree to these Terms, you must not access or use Stream Support.
           </p>
         </section>
 
         {/* Section 2 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">02.</span> Platform Overview & Service Nature
+            <span className="text-purple-400 font-mono text-base">02.</span> About Stream Support
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Stream Support is a dedicated single-streamer support platform designed to enable viewers and audience members to send voluntary monetary support ("SuperDrops") to <code className="text-cyan-300">[STREAMER NAME]</code> during live streams or offline.
+            Stream Support is a digital platform that enables viewers, supporters, fans, and other users to voluntarily provide monetary support to participating content creators and streamers.
           </p>
           <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
-            <li><strong>No Account Creation Required:</strong> Viewers are not required to register or create a user account to send a SuperDrop.</li>
-            <li><strong>No Physical Products:</strong> Stream Support does not sell, ship, fulfill, or deliver any physical merchandise, e-commerce goods, or tangible items.</li>
-            <li><strong>Voluntary Contributions:</strong> SuperDrops are strictly voluntary financial gifts/support provided by viewers to appreciate the content of <code className="text-cyan-300">[STREAMER NAME]</code>.</li>
+            <li><strong>Digital Platform:</strong> Stream Support provides software tools and web infrastructure to facilitate digital support interactions.</li>
+            <li><strong>No Physical Products:</strong> Stream Support does not sell, deliver, ship, or fulfill physical merchandise, tangible goods, or e-commerce products through the platform.</li>
           </ul>
         </section>
 
         {/* Section 3 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">03.</span> SuperDrops & Financial Contributions
+            <span className="text-purple-400 font-mono text-base">03.</span> Nature of SuperDrops
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            When you send a SuperDrop, you acknowledge and agree that:
+            A "SuperDrop" is a voluntary monetary support transaction completed through Stream Support to express appreciation for participating content creators and streamers.
           </p>
           <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
-            <li>SuperDrops are made out of personal goodwill to support live content creation.</li>
-            <li>SuperDrops do <strong>NOT</strong> constitute charitable donations or non-profit contributions. Stream Support and <code className="text-cyan-300">[LEGAL/OWNER NAME]</code> are not registered charities, non-profit entities, or tax-exempt organizations. SuperDrops are not tax-deductible.</li>
-            <li>Making a SuperDrop does not entitle you to equity, platform ownership, commercial rights, or influence over channel management or stream content.</li>
+            <li><strong>Voluntary Support:</strong> SuperDrops are strictly voluntary monetary support transactions.</li>
+            <li><strong>Not Investments or Returns:</strong> SuperDrops are not investments, loans, equity purchases, or guaranteed financial returns. Initiating a SuperDrop does not grant any commercial equity, profit-sharing, or ownership stake.</li>
+            <li><strong>Not Tax-Deductible:</strong> SuperDrops are not tax-deductible donations or charitable contributions. Stream Support and <code className="text-cyan-300">[LEGAL/OWNER NAME]</code> are not charities, non-profit organizations, or tax-exempt trusts.</li>
           </ul>
         </section>
 
         {/* Section 4 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">04.</span> Payment Processing & Gateways
+            <span className="text-purple-400 font-mono text-base">04.</span> Payment Processing & Credentials
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            All SuperDrop transactions are processed securely through licensed third-party payment gateways, including <strong>PayU</strong> and other authorized payment partners.
+            All SuperDrop transactions are processed securely through licensed third-party payment providers such as <strong>Razorpay</strong> and authorized banking partners.
           </p>
           <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
-            <li>Supported payment channels may include UPI, Debit/Credit Cards, Net Banking, and digital wallets.</li>
-            <li>A SuperDrop transaction is considered successful <strong>only after explicit payment status confirmation</strong> is received from the processing payment gateway.</li>
-            <li>You warrant that you are the authorized holder of the payment account or card used to complete a SuperDrop.</li>
+            <li><strong>No Credential Storage:</strong> Stream Support does not intentionally collect or store complete card numbers, CVV, UPI PINs, banking passwords, or similar sensitive payment authentication credentials. All sensitive payment details are handled directly by the payment provider.</li>
+            <li><strong>Explicit Payment Confirmation:</strong> A SuperDrop is considered complete only after explicit status confirmation is received from the third-party payment provider. Completing a checkout flow or payment page redirect does not automatically mean payment is successfully confirmed.</li>
           </ul>
         </section>
 
         {/* Section 5 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">05.</span> User Conduct & Message Moderation
+            <span className="text-purple-400 font-mono text-base">05.</span> Supporter Information & Message Rules
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Users may attach a short custom display name and message with their SuperDrop. You agree that messages submitted with a SuperDrop will not contain:
+            When completing a SuperDrop, users may provide a supporter display name, choose an anonymous option, select a support amount, and attach an optional message.
           </p>
-          <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
-            <li>Hate speech, racism, harassment, threats, or explicit adult content.</li>
-            <li>Promotional spam, unauthorized links, malware, or phishing schemes.</li>
-            <li>Private personal information of third parties without consent.</li>
+          <p className="text-white/70 leading-relaxed text-sm md:text-base">
+            Supporter messages must not contain:
+          </p>
+          <ul className="list-disc list-inside space-y-1 text-white/70 text-sm md:text-base pl-2">
+            <li>Hate speech, harassment, threats, discrimination, or explicit content.</li>
+            <li>Unlawful material, malicious links, phishing schemes, or spam.</li>
+            <li>Unauthorized private personal data of third parties.</li>
           </ul>
-          <p className="text-white/70 leading-relaxed text-sm md:text-base mt-2">
-            Stream Support reserves the right to censor, mute, or remove any message from live broadcast overlays that violates community standards without issuing a refund.
-          </p>
         </section>
 
         {/* Section 6 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">06.</span> Refund & Cancellation Policy
+            <span className="text-purple-400 font-mono text-base">06.</span> Prohibited Activities
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Because SuperDrops are voluntary digital contributions, completed payments are generally final. Detailed policies regarding failed transactions, pending payments, duplicate debits, and refund evaluation procedures are governed by our official <a href="/refund" className="text-cyan-400 underline hover:text-cyan-300">Refund & Cancellation Policy</a>.
+            Users are strictly prohibited from engaging in:
           </p>
+          <ul className="list-disc list-inside space-y-1 text-white/70 text-sm md:text-base pl-2">
+            <li>Fraudulent transactions, unauthorized account usage, or stolen payment methods.</li>
+            <li>Impersonation of any individual, business, or entity.</li>
+            <li>Money laundering, illegal financial schemes, or unauthorized commercial activities.</li>
+            <li>Attempting to bypass security controls, reverse-engineer, or disrupt platform infrastructure.</li>
+          </ul>
         </section>
 
         {/* Section 7 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">07.</span> Third-Party Services & Platform Availability
+            <span className="text-purple-400 font-mono text-base">07.</span> Refunds & Cancellations
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Stream Support operates in conjunction with third-party web hosting, streaming software (e.g. OBS), and payment providers (e.g. PayU). We do not guarantee uninterrupted platform uptime, error-free operations, or instant alert delivery on live stream overlays. Technical downtime or stream latency does not invalidate a verified SuperDrop.
+            All refund queries, failed transaction reversals, and cancellation rules are governed exclusively by our <a href="/refund" className="text-cyan-400 underline hover:text-cyan-300">Refund & Cancellation Policy</a>.
           </p>
         </section>
 
         {/* Section 8 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">08.</span> Limitation of Liability
+            <span className="text-purple-400 font-mono text-base">08.</span> Third-Party Services & Availability Disclaimer
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            To the maximum extent permitted by applicable law, Stream Support, <code className="text-cyan-300">[LEGAL/OWNER NAME]</code>, and <code className="text-cyan-300">[STREAMER NAME]</code> shall not be held liable for any direct, indirect, incidental, or consequential damages arising from the use of this website, failed transactions, network delays, or third-party service outages.
+            Stream Support relies on third-party service providers for payment processing (e.g. Razorpay), cloud hosting, and data transmission. We do not guarantee uninterrupted, fault-free, or continuous platform availability. Third-party outages or network delays do not invalidate verified transactions.
           </p>
         </section>
 
         {/* Section 9 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">09.</span> Changes to Terms
+            <span className="text-purple-400 font-mono text-base">09.</span> Intellectual Property & Content Responsibility
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            We reserve the right to update these Terms at any time. Any changes will be posted on this page with an updated revision date. Continued use of <code className="text-cyan-300">[WEBSITE URL]</code> following posted updates constitutes your acceptance of the revised Terms.
+            All platform branding, software code, design elements, and logos are the property of <code className="text-cyan-300">[LEGAL/OWNER NAME]</code>. Users retain responsibility for any text content or messages they submit.
           </p>
         </section>
 
         {/* Section 10 */}
-        <section className="space-y-3 pt-4 border-t border-white/10">
+        <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">10.</span> Contact & Inquiries
+            <span className="text-purple-400 font-mono text-base">10.</span> Limitation of Liability
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            For questions or legal inquiries regarding these Terms & Conditions, please contact our support team at:
+            To the maximum extent permitted by applicable law, Stream Support and <code className="text-cyan-300">[LEGAL/OWNER NAME]</code> shall not be liable for any indirect, incidental, punitive, or consequential damages resulting from the use of or inability to use the platform.
           </p>
-          <div className="mt-2 inline-block rounded-xl bg-black/40 border border-white/10 px-4 py-2 text-cyan-300 font-mono text-sm">
-            📧 <span className="text-white font-sans">Support Email:</span> <span className="text-cyan-300">[SUPPORT EMAIL]</span>
+        </section>
+
+        {/* Section 11 */}
+        <section className="space-y-3">
+          <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
+            <span className="text-purple-400 font-mono text-base">11.</span> Governing Law
+          </h2>
+          <p className="text-white/70 leading-relaxed text-sm md:text-base">
+            These Terms shall be governed by and construed in accordance with the laws of India. Any disputes arising under or in connection with these Terms shall be subject to the exclusive jurisdiction of the competent courts in India.
+          </p>
+        </section>
+
+        {/* Section 12 */}
+        <section className="space-y-3 pt-4 border-t border-white/10">
+          <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
+            <span className="text-purple-400 font-mono text-base">12.</span> Contact Information
+          </h2>
+          <p className="text-white/70 leading-relaxed text-sm md:text-base">
+            For questions regarding these Terms & Conditions, please contact us:
+          </p>
+          <div className="mt-2 space-y-1 text-sm font-mono text-white/80">
+            <div>Support Email: <span className="text-cyan-300">[SUPPORT EMAIL]</span></div>
+            <div>Website: <span className="text-cyan-300">[WEBSITE URL]</span></div>
+            <div>Legal / Business Name: <span className="text-cyan-300">[LEGAL/OWNER NAME]</span></div>
           </div>
         </section>
 

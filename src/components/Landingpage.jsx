@@ -343,7 +343,7 @@ export default function LandingPage() {
           <div>
             <div className="font-semibold text-white">STREAM SUPPORT</div>
             <p className="text-white/60 text-sm mt-2">
-              Tools & services for creators. Built for speed and simplicity.
+              Digital platform for voluntary monetary support for participating content creators and streamers.
             </p>
           </div>
 
@@ -357,11 +357,17 @@ export default function LandingPage() {
             <Link to="/refund" className="hover:text-white transition hover:underline">
               Refund & Cancellation
             </Link>
-            <Link to="/disclaimer" className="hover:text-white transition hover:underline">
-              Disclaimer
+            <Link to="/shipping" className="hover:text-white transition hover:underline">
+              Shipping Policy
+            </Link>
+            <Link to="/pricing" className="hover:text-white transition hover:underline">
+              Pricing & SuperDrops
             </Link>
             <Link to="/contact" className="hover:text-white transition hover:underline">
-              Contact / Support
+              Contact Us
+            </Link>
+            <Link to="/disclaimer" className="hover:text-white transition hover:underline">
+              Disclaimer
             </Link>
           </div>
         </div>

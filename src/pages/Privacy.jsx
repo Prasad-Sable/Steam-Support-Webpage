@@ -7,16 +7,16 @@ export default function Privacy() {
       title="Privacy Policy"
       documentTitle="Stream Support | Privacy Policy"
       badge="Data Protection"
-      lastUpdated="September 2026"
-      intro="Stream Support respects your privacy. This policy outlines how information is collected, used, and protected when you visit or make a payment on our platform."
+      lastUpdated="7 September 2026"
+      intro="Stream Support respects your privacy. This policy outlines how information is collected, used, and protected when you visit or interact with our platform."
     >
       <div className="rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8 space-y-8">
         
-        {/* Placeholder Alert Banner */}
+        {/* Scope Banner */}
         <div className="rounded-2xl border border-purple-500/30 bg-purple-500/10 p-4 text-xs md:text-sm text-purple-200 flex items-start gap-3">
           <span className="text-lg">🔒</span>
           <div>
-            <strong className="font-semibold text-white">Privacy Commitment:</strong> This policy applies to supporters using <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[WEBSITE URL]</code> to send SuperDrops to <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[STREAMER NAME]</code>, operated by <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[LEGAL/OWNER NAME]</code>.
+            <strong className="font-semibold text-white">Privacy Commitment:</strong> This policy applies to users accessing <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[WEBSITE URL]</code>, operated by <code className="bg-black/40 px-2 py-0.5 rounded text-purple-300">[LEGAL/OWNER NAME]</code>.
           </div>
         </div>
 
@@ -26,96 +26,113 @@ export default function Privacy() {
             <span className="text-purple-400 font-mono text-base">01.</span> Information We Collect
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Stream Support minimizes data collection to only what is necessary to process transactions, display stream alerts, and ensure platform security:
+            Stream Support collects information necessary to provide services, process support transactions, and ensure platform security:
           </p>
-          <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
-            <li><strong>Voluntary Supporter Information:</strong> When making a SuperDrop, you may optionally provide a supporter display name or alias and an accompanying message. You may also choose to send SuperDrops completely anonymously.</li>
-            <li><strong>Transaction Metadata:</strong> When a payment is initiated, our payment provider shares basic confirmation data with us, including transaction reference ID, date, time, contribution amount, and transaction status (Success/Pending/Failed).</li>
-            <li><strong>Technical Data:</strong> We may collect standard web server diagnostic log data, including IP address, browser type, operating system, and timestamp for network security and anti-fraud monitoring.</li>
+          <ul className="list-disc list-inside space-y-1.5 text-white/70 text-sm md:text-base pl-2">
+            <li><strong>Supporter Information:</strong> Name or display name, email address (when provided), supporter messages, and anonymous display preferences.</li>
+            <li><strong>Transaction Metadata:</strong> Transaction ID, payment/order reference numbers, contribution amount, currency, payment status, payment method category, and transaction timestamps.</li>
+            <li><strong>Technical & Diagnostics Data:</strong> IP address, browser type, operating system, device information, and technical/security access logs.</li>
+            <li><strong>Support Communications:</strong> Information and correspondence submitted when reaching out to customer support.</li>
           </ul>
         </section>
 
-        {/* Important Financial Credentials Notice */}
+        {/* Payment Credentials Notice */}
         <div className="rounded-2xl border border-cyan-500/30 bg-cyan-500/10 p-5 text-sm text-cyan-200 space-y-2">
           <div className="font-semibold text-white text-base flex items-center gap-2">
-            <span>🛡️</span> Sensitive Financial Credentials Are Never Stored
+            <span>🛡️</span> Payment Credential Safety
           </div>
           <p className="text-white/80 leading-relaxed text-xs md:text-sm">
-            Stream Support does <strong>NOT</strong> store or have access to your credit card numbers, debit card details, CVVs, banking passwords, or UPI PINs. All payment credential verification and processing are handled directly by PCI-DSS compliant payment gateways (such as <strong>PayU</strong>).
+            Stream Support does <strong>NOT</strong> intentionally collect or store complete card numbers, CVV, UPI PINs, banking passwords, or similar payment authentication credentials. All payment authentication credentials are processed securely by relevant third-party payment providers (such as <strong>Razorpay</strong>).
           </p>
         </div>
 
         {/* Section 2 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">02.</span> How Information is Used
+            <span className="text-purple-400 font-mono text-base">02.</span> Purposes of Data Processing
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            The information collected is used solely for legitimate operational purposes:
+            We process collected information for the following legitimate purposes:
           </p>
-          <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
-            <li>To verify and confirm SuperDrop transactions.</li>
-            <li>To render optional supporter display names and messages on live broadcast overlays.</li>
-            <li>To assist you with payment-related inquiries, duplicate charges, or refund requests.</li>
-            <li>To prevent fraudulent payments, abuse, or security breaches on the platform.</li>
-            <li>To satisfy basic accounting, tax, and legal requirements.</li>
+          <ul className="list-disc list-inside space-y-1.5 text-white/70 text-sm md:text-base pl-2">
+            <li>Payment processing, verification, and transaction status confirmation.</li>
+            <li>Displaying supporter display names and optional messages where applicable.</li>
+            <li>Dashboard functionality and maintaining historical transaction records.</li>
+            <li>Responding to customer support inquiries and managing refund-related requests.</li>
+            <li>Preventing fraud, abuse, unauthorized access, and security incidents.</li>
+            <li>Improving platform performance, reliability, and functionality.</li>
+            <li>Maintaining accounting records and fulfilling legal or regulatory compliance requirements.</li>
           </ul>
         </section>
 
         {/* Section 3 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">03.</span> Sharing Information with Third Parties
+            <span className="text-purple-400 font-mono text-base">03.</span> Sharing with Third-Party Service Providers
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            We do not sell, rent, or trade personal data to third parties. We share data only in the following necessary contexts:
+            We share information with trusted third-party providers solely as necessary to operate the platform:
           </p>
-          <ul className="list-disc list-inside space-y-2 text-white/70 text-sm md:text-base pl-2">
-            <li><strong>Third-Party Payment Processors:</strong> Necessary payment parameters are transmitted securely to authorized payment partners (such as <strong>PayU</strong>) to execute transactions.</li>
-            <li><strong>Legal Requirements:</strong> We may disclose information if required by law, subpoena, court order, or regulatory authority to prevent unlawful activity or protect legal rights.</li>
+          <ul className="list-disc list-inside space-y-1.5 text-white/70 text-sm md:text-base pl-2">
+            <li><strong>Payment Processors:</strong> Third-party payment gateways (such as Razorpay) to process payments.</li>
+            <li><strong>Infrastructure & Hosting:</strong> Secure cloud web hosting and infrastructure partners.</li>
+            <li><strong>Security & Communication:</strong> Technical diagnostic tools and email communication providers.</li>
+            <li><strong>Legal & Professional Advisors:</strong> Legal counselors or auditors when required, or as mandated by legally required disclosures.</li>
           </ul>
         </section>
 
         {/* Section 4 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">04.</span> Data Security & Storage
+            <span className="text-purple-400 font-mono text-base">04.</span> Data Security
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            We employ modern encryption protocols (HTTPS/TLS) and secure infrastructure to protect data in transit and at rest. Access to transaction metadata is restricted exclusively to authorized personnel responsible for platform support.
+            We use reasonable technical and organizational measures appropriate to the nature of the information we process to protect against unauthorized access, loss, or alteration.
           </p>
         </section>
 
         {/* Section 5 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">05.</span> Data Retention
+            <span className="text-purple-400 font-mono text-base">05.</span> Data Retention & Anonymous Display
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Transaction records and associated metadata are retained for as long as necessary to satisfy accounting obligations, fulfill customer support inquiries, or defend against legal claims.
+            Transaction metadata is retained for as long as necessary for business accounting, support tracking, and legal compliance. Users selecting anonymous options will have their display names withheld from public view.
           </p>
         </section>
 
         {/* Section 6 */}
         <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">06.</span> Cookies & Local Storage
+            <span className="text-purple-400 font-mono text-base">06.</span> Cookies & Technical Storage
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            Stream Support uses minimal essential technical cookies and browser local storage strictly required for website navigation, user session state, and security defense. We do not use third-party cross-site advertising cookies.
+            Stream Support uses essential technical cookies and browser local storage strictly required for website navigation, user session integrity, and security defense.
           </p>
         </section>
 
         {/* Section 7 */}
-        <section className="space-y-3 pt-4 border-t border-white/10">
+        <section className="space-y-3">
           <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
-            <span className="text-purple-400 font-mono text-base">07.</span> User Rights & Privacy Contact
+            <span className="text-purple-400 font-mono text-base">07.</span> Children's Privacy
           </h2>
           <p className="text-white/70 leading-relaxed text-sm md:text-base">
-            If you have questions, concerns, or requests regarding your data privacy, please contact us at:
+            Stream Support is not directed to minors under the age of 18 without parental or legal guardian consent. We do not knowingly collect personal data from minors.
           </p>
-          <div className="mt-2 inline-block rounded-xl bg-black/40 border border-white/10 px-4 py-2 text-cyan-300 font-mono text-sm">
-            📧 <span className="text-white font-sans">Support Email:</span> <span className="text-cyan-300">[SUPPORT EMAIL]</span>
+        </section>
+
+        {/* Section 8 */}
+        <section className="space-y-3 pt-4 border-t border-white/10">
+          <h2 className="text-xl md:text-2xl font-bold text-white flex items-center gap-2">
+            <span className="text-purple-400 font-mono text-base">08.</span> Policy Updates & Privacy Contact
+          </h2>
+          <p className="text-white/70 leading-relaxed text-sm md:text-base">
+            We may update this Privacy Policy periodically. For privacy-related questions or data requests, please contact us:
+          </p>
+          <div className="mt-2 space-y-1 text-sm font-mono text-white/80">
+            <div>Support Email: <span className="text-cyan-300">[SUPPORT EMAIL]</span></div>
+            <div>Website: <span className="text-cyan-300">[WEBSITE URL]</span></div>
+            <div>Legal / Business Name: <span className="text-cyan-300">[LEGAL/OWNER NAME]</span></div>
           </div>
         </section>
 
