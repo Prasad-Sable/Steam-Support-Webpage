@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const navLinks = [
   { label: "Features", href: "#features" },
@@ -68,6 +69,7 @@ export default function LandingPage() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
+    document.title = "Stream Support | Empower Your Streaming Journey";
     const onScroll = () => setScrolled(window.scrollY > 10);
     onScroll();
     window.addEventListener("scroll", onScroll);
@@ -94,7 +96,7 @@ export default function LandingPage() {
             <div className="h-10 w-10 rounded-xl bg-white/10 border border-white/10 grid place-items-center">
               <span className="text-lg">▦</span>
             </div>
-            <span className="font-semibold tracking-wide">SUPERSUPPORT</span>
+            <span className="font-semibold tracking-wide">STREAM SUPPORT</span>
           </a>
 
           <div className="hidden md:flex items-center gap-7 text-white/70">
@@ -339,28 +341,28 @@ export default function LandingPage() {
       <footer className="border-t border-white/10 bg-black/20">
         <div className="mx-auto max-w-6xl px-5 py-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
-            <div className="font-semibold">SUPERSUPPORT</div>
+            <div className="font-semibold text-white">STREAM SUPPORT</div>
             <p className="text-white/60 text-sm mt-2">
               Tools & services for creators. Built for speed and simplicity.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-4 text-sm text-white/70">
-            <a href="/terms" className="hover:text-white transition">
-              Terms
-            </a>
-            <a href="/privacy" className="hover:text-white transition">
-              Privacy
-            </a>
-            <a href="/refund" className="hover:text-white transition">
-              Refund Policy
-            </a>
-            <a href="/shipping" className="hover:text-white transition">
-              Shipping Policy
-            </a>
-            <a href="#contact" className="hover:text-white transition">
-              Contact
-            </a>
+            <Link to="/terms" className="hover:text-white transition hover:underline">
+              Terms & Conditions
+            </Link>
+            <Link to="/privacy" className="hover:text-white transition hover:underline">
+              Privacy Policy
+            </Link>
+            <Link to="/refund" className="hover:text-white transition hover:underline">
+              Refund & Cancellation
+            </Link>
+            <Link to="/disclaimer" className="hover:text-white transition hover:underline">
+              Disclaimer
+            </Link>
+            <Link to="/contact" className="hover:text-white transition hover:underline">
+              Contact / Support
+            </Link>
           </div>
         </div>
       </footer>
